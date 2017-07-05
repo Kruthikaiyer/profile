@@ -1,0 +1,52 @@
+body{
+background-color:grey;
+}
+div{
+border-radius: 5px;
+}
+#header
+{
+    position: fixed;
+    height:40px;
+    width: 98%;
+    background-color: black;
+}
+
+#name {
+    float:left;
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: Verdana;
+	color: pink;
+}
+
+#email{
+    float:right;
+    margin-right: 20px;
+	font-size: 16px;
+	font-family: Verdana;
+	color: pink;
+}
+table
+{
+    border: 1px dashed black;
+}
+#course-name
+{
+    font-weight:bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
+#heading
+{
+    font-weight:bold;
+}
+h3
+{
+    text-decoration: underline;
+}
+
+tr:nth-child(even){background:#CCC}
+tr:nth-child(odd){background:#FFF}
